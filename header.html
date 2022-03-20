@@ -1,104 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=EB+Garamond&family=Noto+Serif&family=Source+Serif+Pro&display=swap');
+<!doctype HTML>
+<head>
+<link rel="stylesheet" href="bin/style.css">
 
-/*
-font-family: 'Dosis', sans-serif;
-font-family: 'EB Garamond', serif;
-font-family: 'Noto Serif', serif;
-font-family: 'Source Serif Pro', serif;*/
-
-
-h2 {
-    font-family: 'EB Garamond', serif;
-
-}
-
-
-
-
-.verticalCentered {
-    position: fixed;
-    left: 50%;
-    margin-left: -100px;
-}
-
-
-
-
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    float: left;
-    width: 15%;
+</head>
+<header>
+    <h2 class="verticalCentered">Freyberg English</h2>
+    <br><br><br><br>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Stories
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="stories/Story1.html">Story 1</a>
+                    <a href="stories/Story2.html">Story 2</a>
+                    <a href="stories/Story3.html">Story 3</a>
+                    <a href="stories/Story4.html">Story 4</a>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn">Activities
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="madlib.html">Madlib</a>
+                </div>
+            </div>
+            
+        
+        
+        </ul>
     
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #f2f2f2;
-}
-
-.navbar a {
-  color: black;
-  text-align: center;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #999999;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+    </div>
+    
+    
+    
+</header>
